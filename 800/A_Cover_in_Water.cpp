@@ -10,7 +10,6 @@ void solve() {
     cin >> n;
     string s;
     cin >> s;
-
     bool three_consecutive_dots = false;
     for (int i = 0; i <= n - 3; ++i) {
         if (s[i] == '.' && s[i+1] == '.' && s[i+2] == '.') {
